@@ -5,12 +5,13 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: adjelili <adjelili@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/05/07 11:11:46 by adjelili          #+#    #+#             */
-/*   Updated: 2026/05/07 17:31:07 by adjelili         ###   ########.fr       */
+/*   Created: 2026/05/07 17:51:11 by adjelili          #+#    #+#             */
+/*   Updated: 2026/05/07 18:05:20 by adjelili         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "Fixed.hpp"
+#include "Point.hpp"
 
 Fixed::Fixed(void)
 {
