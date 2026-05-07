@@ -6,7 +6,7 @@
 /*   By: anis <anis@student.42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/05/07 17:59:23 by adjelili          #+#    #+#             */
-/*   Updated: 2026/05/07 23:09:59 by anis             ###   ########.fr       */
+/*   Updated: 2026/05/08 00:04:36 by anis             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,8 +30,8 @@ class Point
 		float	get_y(void) const;
 };
 
-float	globalArea(Point const a, Point const b, Point const c);
-float	localArea(Point const a, Point const b, Point const point);
-bool	bsp(Point const a, Point const b, Point const c, Point const point);
+float	globalArea(Point const &a, Point const &b, Point const &c);
+float	localArea(Point const &a, Point const &b, Point const &point);
+bool	bsp(Point const &a, Point const &b, Point const &c, Point const &point);
 
 #endif
