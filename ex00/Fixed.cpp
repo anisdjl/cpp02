@@ -6,7 +6,7 @@
 /*   By: adjelili <adjelili@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/05/03 19:37:51 by anis              #+#    #+#             */
-/*   Updated: 2026/05/04 18:01:03 by adjelili         ###   ########.fr       */
+/*   Updated: 2026/05/13 14:11:44 by adjelili         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,7 +23,7 @@ Fixed::~Fixed(void)
 	std::cout << "Destructor called\n";
 }
 
-Fixed::Fixed(const Fixed &src) // pareil qu'un constructeur par default sauf qu'il recoit unn objet par refernce
+Fixed::Fixed(const Fixed &src)
 {
 	std::cout << "Copy constructor called\n";
 	*this = src;
@@ -40,7 +40,7 @@ void	Fixed::setRawBits(int const raw)
 	this->_fixedPoint = raw;
 }
 
-Fixed	&Fixed::operator=(const Fixed &src) // il faut tout le temps checker si c'est pas le meme pour eviter l'auto assignation
+Fixed	&Fixed::operator=(const Fixed &src)
 {
 	std::cout << "Copy assignment operator called\n";
 
